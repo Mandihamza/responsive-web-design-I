@@ -226,7 +226,6 @@ footer p {
 @media screen and (max-width: 800px) {
 
   body {
-		background-color: #C2E2F5;
 		margin: 0% 2%;
   }
 
@@ -271,12 +270,22 @@ footer p {
 
 @media screen and (max-width: 500px) {
 
-
-
-
-	body {
-		background-color: #C2E2F5;
+body {
 		margin: 0% 2%;
+	}
+
+	h1 {
+		font-size: 15vw;
+	}
+
+	button {
+		margin-top: 4%;
+
+		}
+
+	p, a, h2, h3, address {
+		font-size: 4vw;
+		line-height: 1.2;
 	}
 
 	.header-nav { /* Nav parent container */
@@ -324,4 +333,7 @@ footer p {
 		padding: 2%  0%;
 	}
 
+	footer, a {
+		padding: 2% 0%;
+	}
 }
